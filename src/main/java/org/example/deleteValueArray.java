@@ -19,7 +19,7 @@ public class deleteValueArray {
         } while (size > 20);
         arr = new int[size];
         for (int i = 0; i < arr.length; i++){
-            System.out.println("Enter element " + i+1 +":");
+            System.out.println("Enter element " + (i+1) +":");
             arr[i] = scanner.nextInt();
         }
         System.out.println("Value to delete: ");
