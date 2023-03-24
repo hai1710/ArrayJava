@@ -18,7 +18,7 @@ public class AddToValue {
         } while (size > 20);
         arr = new int[size];
         for (int i = 0; i < arr.length; i++){
-            System.out.println("Enter elemet " + (i+1) + ":");
+            System.out.println("Enter element " + (i+1) + ":");
             arr[i] = sc.nextInt();
         }
         System.out.println("Value to add:");
